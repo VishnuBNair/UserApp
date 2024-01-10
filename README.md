@@ -4,41 +4,13 @@ This is a SwiftUI project that demonstrates the MVVM (Model-View-ViewModel) arch
 
 ## Project Structure
 
-The project follows the MVVM architecture and is organized as follows:
-
-MyApp
-├── MyApp
-│ ├── Models
-│ │ ├── User.swift
-│ │ └── ...
-│ ├── Views
-│ │ ├── UserListView.swift
-│ │ ├── UserDetailView.swift
-│ │ └── ...
-│ ├── ViewModels
-│ │ ├── UserListViewModel.swift
-│ │ ├── UserDetailViewModel.swift
-│ │ └── ...
-│ ├── Services
-│ │ ├── APIService.swift
-│ │ └── ...
-│ └── ...
-├── Resources
-│ ├── Assets.xcassets
-│ └── ...
-├── Tests
-│ ├── MyAppTests
-│ └── ...
-└── MyAppApp.swift
-
-
-- **Models:** Contains Swift files defining data models, such as `User`.
+- **Models:** Contains Swift files defining data models, such as `UsersView`.
 
 - **Views:** Contains SwiftUI view files, such as `UserListView` and `UserDetailView`.
 
-- **ViewModels:** Contains Swift files defining view models, such as `UserListViewModel` and `UserDetailViewModel`.
+- **ViewModels:** Contains Swift files defining view models, such as `UserViewModels``.
 
-- **Services:** Contains Swift files for any external services or APIs, such as `APIService`.
+- **network:** Contains Swift files for any external services or APIs, such as `URLSessionAPIClient`
 
 ## How to Run the App
 
