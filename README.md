@@ -80,7 +80,7 @@ Copy code
 1. Clone the repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone [https://github.com/your-username/your-repo.git](https://github.com/VishnuBNair/UserApp.git)
 Open the project in Xcode.
 bash
 Copy code
